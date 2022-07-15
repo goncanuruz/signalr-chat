@@ -1,0 +1,129 @@
+
+
+
+/** CLICK USERNAME SCREEN **/
+
+.no-username-screen{
+    height: 100vh;
+    width: 100;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+    background-size: cover;
+}
+.form-error-text{
+    color:red;
+}
+.form-button
+{
+    margin-block-start: 5px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.username-input{
+font-size: 18px;
+font-weight: 500;
+height: 26px;
+}
+
+/** CHAT SCREEN **/
+
+.chat-screen{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+    background-size: cover;
+}
+.width-1080{
+    width: 928px;
+}
+.chat-main{
+    border-radius: 8px;
+    height: calc(100vh - 100px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.chat-message-list-main{
+    height: calc(100% - 100px);
+    width: 100%;
+}
+.chat-message-list{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:20px
+}
+.chat-message-element{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap:5px
+}
+
+.chat-message-bubble {
+	font-size: 0.9em;
+	padding: 8px;
+	border-radius: 6px;
+    max-width: 70%;
+	word-break: break-all;
+}
+
+.chat-message-bubble {
+	position: relative;
+    color: #4c385d;
+	background-color:#f9f1fe;
+	&:after {
+        position: absolute;
+        bottom: 5px;
+        left: -5px;
+        content: '';
+        width: 0;
+        height: 0;
+        border-right: solid 5px #f9f1fe;
+        border-bottom: solid 5px transparent;
+        border-top: solid 5px transparent;
+	}
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+.chat-message-send{
+    height: 80px;
+    width: 98%;
+}
+.chat-send-message-input{
+    width: 92%;
+    padding-inline: 10px;
+    height: 40px;
+    border: 1px solid #f1f3f4;
+    box-shadow: none !important;
+    margin-inline-end: 5px;
+    border-radius: 8px;
+}
+.chat-send-message-input:focus-visible{
+    outline-color: #c585f7
+    ;
+}
+.chat-send-message-button{
+    background-color: transparent;
+    border: 0px !important;
+    cursor: pointer;
+    height: 100%;
+    padding-top: 10px;
+    img{
+        margin-block-end: -6px ;
+    }
+}
