@@ -1,21 +1,11 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "91baa7b4-98a4-44d4-a545-73ed40229a00": {
-      "ProjectGuid": "91baa7b4-98a4-44d4-a545-73ed40229a00",
-      "DisplayName": "WebApplication1",
-      "ColorIndex": 0
-    },
-    "63d783ab-e1ed-4ae6-ae52-5168ba65858d": {
-      "ProjectGuid": "63d783ab-e1ed-4ae6-ae52-5168ba65858d",
-      "DisplayName": "SignalR.Chat",
-      "ColorIndex": 1
-    },
-    "5ab37b9b-eca1-4058-82a8-db9d374a8504": {
-      "ProjectGuid": "5ab37b9b-eca1-4058-82a8-db9d374a8504",
+    "68284fbb-ec05-42de-8e52-8fd8642976f1": {
+      "ProjectGuid": "68284fbb-ec05-42de-8e52-8fd8642976f1",
       "DisplayName": "SignalR.Chat.API",
-      "ColorIndex": 2
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 1
 }
